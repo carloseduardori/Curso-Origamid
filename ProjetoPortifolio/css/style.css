@@ -1,0 +1,666 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Fira Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #141414;
+    padding: 2.2rem 3rem;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    padding-right: 4rem;
+}
+
+nav ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #141414;
+}
+
+.introducao{
+    display: flex;
+    margin: 50px 70px 70px 70px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.introducao img{
+    max-width: 350px;
+}
+
+.sobre{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 80px;
+    position: relative;
+    gap: 1rem;
+}
+
+.sobre h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #141414;
+}
+
+.sobre h2{
+    color: #525252;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.sobre img{
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    left: 40px;
+}
+
+.experiencia{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    gap: 30px 6rem;
+    margin-bottom: 5rem;
+}
+
+.experiencia h1.titulo{
+    display: grid;
+    grid-row: span 4;
+    color: #e0e0e0;
+    font-size: 8rem;
+    word-break: break-all;
+    text-transform: uppercase;
+    padding: 0px 4rem;
+    line-height: 10rem;
+}
+
+.experiencia h2.subtitulo{
+    font-weight: 400;
+    color: #525252;
+    padding: 0px 20rem 0px 0px;
+}
+
+.experiencia h2.subtitulo span{
+    color: #141414;
+    font-weight: 700;
+}
+
+.bikcraft{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f5f5f5;
+    padding: 20px;
+    gap: 10px 30px;
+    border-radius: 4px;
+    margin-right: 5rem;
+    position: relative;
+}
+
+.bikcraft span{
+    position: absolute;
+    padding: 5px 15px 0px 5px;
+    border-right: 4px solid #65dd0ab4;
+    left: -53px;
+    top: 18px;
+    color: #525252;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.bikcraft h1{
+    display: grid;
+    grid-row: 1;
+    font-size: 1.2rem;
+    color: #141414;
+}
+
+.bikcraft h2{
+    display: grid;
+    grid-column: 1;
+    font-weight: 400;
+    color: #525252;
+    font-size: 1rem;
+}
+.bikcraft ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem 1.5rem;
+    list-style-type: none;
+}
+
+.bikcraft ul li{
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.surfbot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f5f5f5;
+    padding: 20px;
+    gap: 10px 30px;
+    border-radius: 4px;
+    margin-right: 5rem;
+    position: relative;
+}
+
+.surfbot span{
+    position: absolute;
+    padding: 5px 15px 0px 5px;
+    border-right: 4px solid #65dd0ab4;
+    left: -73px;
+    top: 18px;
+    color: #525252;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.surfbot h1{
+    display: grid;
+    grid-row: 1;
+    font-size: 1.2rem;
+    color: #141414;
+}
+
+.surfbot h2{
+    display: grid;
+    grid-column: 1;
+    font-weight: 400;
+    color: #525252;
+    font-size: 1rem;
+}
+.surfbot ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem 1.5rem;
+    list-style-type: none;
+}
+
+.surfbot ul li{
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 3px;
+    align-self: baseline;
+}
+
+.brafe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f5f5f5;
+    padding: 20px;
+    gap: 10px 30px;
+    border-radius: 4px;
+    margin-right: 5rem;
+    position: relative;
+}
+
+.brafe span{
+    position: absolute;
+    padding: 5px 15px 0px 5px;
+    border-right: 4px solid #65dd0ad5;
+    left: -53px;
+    top: 18px;
+    color: #525252;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.brafe h1{
+    display: grid;
+    grid-row: 1;
+    font-size: 1.2rem;
+    color: #141414;
+}
+
+.brafe h2{
+    display: grid;
+    grid-column: 1;
+    font-weight: 400;
+    color: #525252;
+    font-size: 1rem;
+}
+.brafe ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem 1.5rem;
+    list-style-type: none;
+}
+
+.brafe ul li{
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.formacao{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    background-color: #141414;
+    gap: 30px 6rem;
+    padding: 8rem 2rem 3rem 2rem;
+}
+
+.formacao h1.titulo{
+    display: grid;
+    grid-row: span 7;
+    color: #000;
+    font-size: 8rem;
+    word-break: break-all;
+    text-transform: uppercase;
+    padding: 0px 2rem;
+    line-height: 8rem;
+}
+
+.formacao h2.subtitulo{
+    font-weight: 400;
+    color: #a3a3a3;
+    padding: 0px 18rem 2rem 0px;
+}
+.formacao h2.subtitulo span{
+    color: #fff;
+    font-weight: 700;
+}
+
+.formacoes{
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr;
+    gap: 25px;
+    margin-right: 50px;
+}
+
+.bacharel, .tecnologo, .mestre{
+    display: grid;
+    gap: 15px;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.formacoes h3{
+    font-size: 0.9rem;
+    color: #a3a3a3;
+    font-weight: 400;
+    position: relative;
+}
+.formacoes h3::before{
+    content: "";
+    display: block;
+    height: 22px;
+    width: 4px;
+    background-color: #65dd0a;
+    position: absolute;
+    left: -23px;
+    top: 30px;
+}
+
+.formacoes h1{
+    color: #fff;
+    font-size: 1.15rem;
+}
+
+.formacoes h2{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #a3a3a3;
+    font-weight: 400;
+}
+
+.cursos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-right: 50px;
+}
+
+.cursos-intensivos h2, .idiomas h2{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #8f8f8f;
+    font-size: 0.9rem;
+}
+.cursos li, .idiomas li{
+    color: #fff;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 5px;
+}
+
+.cursos ul.horas li{
+    color: #8f8f8f;
+}
+
+.idiomas span{
+    margin-top: 1.5rem;
+    color: #8f8f8f;
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 5rem;
+    gap: 8rem 5rem;
+    position: relative;
+}
+
+footer img{
+    position: absolute;
+    top: -4rem;
+    left: 5rem;
+}
+
+footer h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ccc;
+    grid-column: 1;
+}
+
+footer ul{
+    list-style-type: none;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+footer ul a{
+    color: #fff
+}
+
+footer li{
+    padding: 15px 0px;
+}
+
+footer p{
+    color: #8f8f8f;
+    grid-column: 1;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1024px){
+    nav ul{
+        padding-right: 2.5rem;
+    }
+    .introducao img.lobo {
+        max-width: 250px;
+        margin-left: 20px;
+    }
+    .sobre{
+        padding: 80px 0px 80px 30px;
+    }
+    .sobre h1{
+        font-size: 2.5rem;
+    }
+    .sobre img{
+        left: -10px;
+        top: 45px;
+    }
+    .experiencia h1.titulo {
+        font-size: 6rem;
+        padding: 0px 7rem;
+        line-height: 5rem;
+    }
+    .experiencia h2.subtitulo{
+        padding: 0px 10rem 0px 0px
+    }
+    .formacao h2.subtitulo{
+        padding: 0px 10rem 2rem 0px;
+    }
+    .experiencia{
+        gap: 30px 1rem;
+    }
+}
+
+@media (max-width: 800px){
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav ul{
+        gap: 20px;
+    }
+    nav li{
+        padding: 10px 15px;
+        background-color: #f5f5f5;
+    }
+    .experiencia h1.titulo{
+        color: #141414;
+        font-size: 3rem;
+        padding: 0;
+    }
+    .experiencia{
+        grid-template-columns: 1fr;
+        padding: 0px 20px 5rem 20px;
+    }
+
+    .experiencia h2.subtitulo{
+        padding: 0;
+    }
+
+    .formacao{
+        grid-template-columns: 1fr;
+        padding: 0px 20px 5rem 20px;
+        gap: 20px 1rem;
+    }
+    .formacao h1.titulo{
+        color: #fff;
+        font-size: 3rem;
+        padding: 0;
+    }
+    .formacao h2.subtitulo{
+        padding: 0px;
+    }
+    .formacoes{
+        gap: 20px;
+    }
+
+    footer{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px){
+    .introducao{
+        margin: 50px 50px 0px 50px;
+    }
+    .introducao img.lobo{
+        margin-left: 10px;
+        max-width: 200px;
+    }
+    .sobre h1{
+        font-size: 2rem;
+    }
+    .experiencia{
+        padding: 0px 20px 1rem 20px;
+    }
+}
+
+@media(max-width: 520px){
+    nav ul{
+        padding-right: 0;
+    }
+    .introducao img.lobo{
+        margin-left: 10px;
+        max-width: 150px;
+    }
+    .sobre {
+        padding: 80px 0px 80px 0px;
+    }
+    .sobre img{
+        max-width: 80px;
+        top: 62px;
+        left: -28px;
+    }
+    .introducao {
+        margin: 0px;
+    }
+    .formacao h1.titulo {
+        grid-row: 1;
+    }
+    .formacoes{
+        grid-template-columns: 0.6fr 0.6fr;
+        margin-right: 0;
+    }
+    .formacoes .mestre{
+        display: grid;
+        grid-column: span 2;
+        grid-row: 3;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px){
+    .introducao img.lobo{
+        display: none;
+    }
+    .sobre h1, h2{
+        padding: 10px;
+    }
+    .sobre img{
+        max-width: 80px;
+        left: -16px;
+        top: 66px;
+    }
+    .bikcraft, .surfbot, .brafe{
+        margin-right: 0;
+    }
+    footer{
+        padding: 80px 30px;
+        gap: 3rem 5rem;
+    }
+
+    footer img{
+        left: 3rem;
+        max-width: 110px;
+        top: -3.2rem;
+    }
+}
+
+@media (max-width: 395px){
+    nav{
+        padding: 1rem 0rem;
+        text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .sobre img{
+        max-width: 70px;
+        left: -12px;
+        top: 25px;
+    }
+    .sobre{
+        padding: 30px 0px 50px 0px;
+    }
+    .experiencia h1.titulo{
+        font-size: 2.5rem;
+    }
+    .bikcraft{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bikcraft h1 {
+        display: grid;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .bikcraft h1.principal{
+        display: grid;
+        grid-row: 1;
+    }
+    .bikcraft ul {
+        display: grid;
+        grid-column: 1;
+        grid-row: 4;
+        justify-content: flex-start;
+    }
+    .surfbot{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .surfbot h1 {
+        display: grid;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .surfbot h1.principal{
+        display: grid;
+        grid-row: 1;
+    }
+    .surfbot ul {
+        display: grid;
+        grid-column: 1;
+        grid-row: 4;
+        justify-content: flex-start;
+    }
+    .brafe{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .brafe h1 {
+        display: grid;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .brafe h1.principal{
+        display: grid;
+        grid-row: 1;
+    }
+    .brafe ul {
+        display: grid;
+        grid-column: 1;
+        grid-row: 4;
+        justify-content: flex-start;
+    }
+    .formacoes {
+        gap: 10px;
+    }
+    footer ul {
+        list-style-type: none;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 320px) {
+    .formacoes {
+        grid-template-columns: 1fr;
+        margin-right: 0;
+    }
+    .formacoes .bacharel{
+        grid-column: 1;
+    }
+    .formacoes .tecnologo{
+        grid-column: 1;
+    }
+    .formacoes .mestre{
+        grid-column: 1;
+        grid-row: 3;
+        text-align: left;
+    }
+}

@@ -170,3 +170,54 @@ footer{
     font-size: 1.3rem;
 }
 
+@media (max-width: 1024px){
+    main{
+        margin-left: 0;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 850px){
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .info{
+        text-align: center;
+        justify-items: center;
+        margin-bottom: 30px;
+    }
+
+    .vantagem h1{
+        text-align: center;
+    }
+
+    .info h1::before{
+        display: none;
+    }
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .motor,.velocidade,.rastreador{
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 500px){
+    .vantagem h1 {
+        font-size: 2.8rem;
+        padding: 4rem 1.5rem;
+    }
+    footer{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 500px){
+    .vantagem h1 {
+        font-size: 2rem;
+        padding: 4rem 1rem;
+    }
+}
+
