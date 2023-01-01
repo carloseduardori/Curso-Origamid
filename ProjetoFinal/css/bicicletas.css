@@ -237,8 +237,16 @@ main{
     color: #b2b2b2;
 }
 
-.magic .informacoes::after{
-    opacity: 1;
+.magic .informacoes h1::after{
+    content: "R$ 2499";
+}
+
+.nebula .informacoes h1::after{
+    content: "R$ 3999";
+}
+
+.preco{
+    display: none;
 }
 
 
@@ -321,6 +329,9 @@ footer ul .sociais{
 
     .magic h1 span{
         color: #fff;
+    }
+    .preco{
+        display: inline-block;
     }
 }
 
