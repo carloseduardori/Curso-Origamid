@@ -1,0 +1,443 @@
+/* font-family: 'Nunito', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; 
+} 
+
+body{
+    font-size: 1.6em;
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background-color: #122ab2;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    color: #fff;
+    font-size: 1.7rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.informacoes a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav{
+    background-color: #2c70ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    flex-wrap: wrap;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+    gap: 3rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.menu a:hover{
+    color: #122ab2;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+main > h1{
+    font-size: 4.5rem;
+    color: #222222;
+    max-width: 20ch;
+    padding: 6rem 0rem;
+}
+
+.sobre{
+    padding: 6rem 0rem;
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre h1{
+    font-size: 4.5rem;
+    color: #222222;
+    margin-bottom: 2rem;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    max-width: 50ch;
+    padding: 2rem;
+}
+
+.texto p{
+    font-size: 2rem;
+    color: #7c7c7c;
+    margin-bottom: 2rem;
+}
+
+.imagens{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.imagens img{
+    width: 100%;
+}
+
+.produto{
+    padding: 8rem 0rem;
+}
+
+.produto h1{
+    font-size: 4.5rem;
+    color: #222222;
+    margin-bottom: 5rem;
+}
+
+.produtos{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.produtos h1{
+    color: #a4a4a4;
+    padding-left: 2rem;
+    margin-bottom: 4rem;
+}
+
+.produtos img{
+    width: 100%;
+}
+
+.produto1, .produto2, .produto3{
+    background-color: #f7f7f7;
+    padding: 6rem 0rem 0rem 0rem;
+}
+
+.produto1{
+    border-top: 10px solid #ae81ff;
+}
+
+.produto2{
+    border-top: 10px solid #f9265e;
+}
+.produto3{
+    border-top: 10px solid #66d9eb;
+}
+
+
+
+.planos{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 5rem;
+}
+
+.planos h1{
+    color: #a4a4a4;
+    font-size: 4.8rem;
+}
+
+.planos h2{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 0.8rem;
+    margin: 2rem 0rem;
+    display: block;
+    font-size: 3.8rem;
+}
+
+.planos span{
+    font-size: 1.8rem;
+}
+
+.planos ul li{
+    list-style-type: none;
+    text-align: left;
+    color: #7c7c7c;
+    font-style: italic;
+    font-size: 2rem;
+    padding: 0.8rem;
+    position: relative;
+}
+
+.planos ul li::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #2c70ff;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    border-radius: 50%;
+    right: 0;
+}
+
+.planos div{
+    border: 4px solid #fff;
+    padding: 6rem 4rem;
+    width: auto;
+    text-align: center;
+}
+
+.planos button{
+    padding: 2rem 6rem;
+    border: none;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    border: 5px solid #000;
+}
+
+
+.final{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.descricao{
+    display: flex;
+    gap: 4rem 1rem;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex: 1;
+    padding: 3rem;
+}
+
+.descricao div{
+    max-width: 300px;
+    padding: 1rem;
+}
+
+.descricao div h1{
+    color: #a4a4a4;
+    font-size: 4rem;
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.descricao div h1.roxo::before{
+    content: "";
+    width: 8px;
+    height: 30px;
+    display: inline-block;
+    background-color: #ae81ff;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.descricao div h1.rosa::before{
+    content: "";
+    width: 8px;
+    height: 30px;
+    display: inline-block;
+    background-color: #f9265e;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.descricao div h1.azul::before{
+    content: "";
+    width: 8px;
+    height: 30px;
+    display: inline-block;
+    background-color: #66d9eb;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.descricao div p{
+    color: #7c7c7c;
+    font-size: 2rem;
+}
+
+.assinar{
+    background-color: #f7f7f7;
+    display: flex;
+    padding: 8rem 0rem;
+    justify-content: space-between;
+}
+
+.news h1{
+    color: #a4a4a4;
+    font-size: 5rem;
+}
+
+.news p{
+    color: #7c7c7c;
+    font-style: italic;
+    font-size: 2rem;
+    max-width: 20ch;
+}
+
+.cadastrar input{
+    padding: 2.5rem 4rem 1.8rem 2rem;
+    font-size: 2rem;
+    border: none;
+    border: 4px solid #2c70ff;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.cadastrar button{
+    background-color: #2c70ff;
+    border: none;
+    padding: 2rem 5rem;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #2c70ff;
+    padding: 8rem;
+    text-align: center;
+}
+
+footer h3{
+    font-weight: 400;
+    color: #122ab2;
+    font-size: 3.5rem;
+}
+
+
+@media (max-width: 1000px) {
+    main > h1 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .imagens {
+        gap: 10rem;
+    }
+
+    .produto h1 {
+        text-align: center;
+    }
+
+    .produtos {
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .descricao {
+        justify-content: center;
+    }
+
+    .texto{
+        max-width: 80ch;
+    }
+
+    .texto p{
+        font-size: 3rem;
+    }
+
+    .assinar {
+        padding: 8rem 3rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 850px){
+    .assinar{
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .descricao{
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .informacoes{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    nav{
+        justify-content: center;
+    }
+    .imagens{
+        display: none;
+    }
+    .produtos img {
+        width: 80%;
+    }
+
+    .cadastrar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .planos{
+        padding: 2rem;
+    }
+
+    .planos div{
+        padding: 6rem 1rem;
+    }
+}
